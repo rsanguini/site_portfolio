@@ -1,18 +1,26 @@
 # Rafael Sanguini — Personal Portfolio
 
+> **This portfolio is a living project.** It grows with me — every new skill, project, and milestone in my career gets reflected here. What you see today is a snapshot of my journey, not a finished product.
+
 A modern, dark-themed personal portfolio website built with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools — just clean, semantic code.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Living%20Project-blueviolet?style=flat-square)
 
 ---
 
 ## 📋 Overview
 
-A personal portfolio showcasing projects, skills, and contact information. The site features a responsive dark-mode design with purple accents, smooth scroll animations, an interactive skill section, and a functional contact area with clipboard integration.
+This is not a static portfolio. It's a **living representation of my career** — updated continuously as I learn new technologies, build new projects, reach new milestones, and grow as a developer.
+
+Every section here is designed to evolve:
+- **Projects** will be added as I build them
+- **Skills** will expand as I learn
+- **Experience** will update as I progress
+- **Design** may shift as my aesthetic sense refines
 
 Built from scratch as a first portfolio project — focusing on clean code, accessibility, and modern UI/UX practices without relying on any frontend framework.
 
@@ -89,9 +97,9 @@ portfolio/
 ├── js/
 │   └── main.js            # All interactions (nav, scroll, modal, clipboard, reveal)
 ├── assets/
-│   ├── hero-photo.jpg     # Hero section portrait
-│   ├── about-photo.jpg    # About section portrait
-│   └── favicon.png         # Favicon
+│   ├── photos/            # Personal photos (hero, about, skills)
+│   ├── projects/          # Project thumbnails and screenshots
+│   └── icons/             # Social and UI icons
 ├── index.html             # Single-page structure
 ├── .gitignore             # OS, editor, env exclusions
 ├── LICENSE                # MIT License
@@ -128,13 +136,32 @@ portfolio/
 
 ## 🗺️ Roadmap
 
+This portfolio is a **living project** — the roadmap below reflects what's been done and what's coming as my career evolves.
+
 | Phase | Description | Status |
 |-------|-------------|--------|
 | **1. Core Layout** | Hero, About, Projects, Skills, Contact | ✅ Completed |
 | **2. Interactions** | Scroll animations, modal, clipboard, mobile menu | ✅ Completed |
 | **3. Responsive** | Full mobile-to-desktop responsiveness | ✅ Completed |
 | **4. Deploy** | Vercel hosting with custom domain | ✅ Completed |
-| **5. Future** | Blog section, dark/light toggle, i18n, project filtering | 🔜 Planned |
+| **5. Expand Projects** | Add new projects as they are built | 🔄 Ongoing |
+| **6. Expand Skills** | Update skill bars as new technologies are learned | 🔄 Ongoing |
+| **7. Blog Section** | Write about learnings, projects, and career journey | 🔜 Planned |
+| **8. Dark/Light Toggle** | Theme switcher for user preference | 🔜 Planned |
+| **9. i18n** | Multi-language support (PT/EN) | 🔜 Planned |
+| **10. Project Filtering** | Filter projects by technology, category, or year | 🔜 Planned |
+
+> **Note:** Phases 5 and 6 are intentionally ongoing — this portfolio is designed to grow with me. As I learn new technologies, complete new projects, or reach career milestones, this repository and the deployed site will be updated to reflect that progress.
+
+---
+
+## 📈 Version History
+
+| Version | Date | Highlights |
+|---------|------|-----------|
+| `v1.0` | Jul 2026 | Initial launch — Hero, About, Projects, Skills, Contact, dark mode, responsive, animations |
+
+> Future versions will be logged here as the portfolio evolves.
 
 ---
 
