@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Rafael Sanguini Colagrossi" />
+  <meta name="description" content="Portfólio de Rafael Sanguini — Desenvolvedor Fullstack & Estudante de Engenharia da Computação"/>
+  <title>Rafael Sanguini | Dev Fullstack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-wrap">
+    <a href="#home" class="nav-logo"><span class="lr">R</span><span class="ls">S</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"        class="nav-link">Início</a></li>
+      <li><a href="#sobre"       class="nav-link">Sobre</a></li>
+      <li><a href="#projetos"    class="nav-link">Projetos</a></li>
+      <li><a href="#habilidades" class="nav-link">Skills</a></li>
+      <li><a href="#contato"     class="nav-link">Contato</a></li>
+    </ul>
+
+    <div class="nav-end">
+      <a href="mailto:rafaelcolagrossi@gmail.com" class="nav-cta">
+        Contato <i data-lucide="arrow-up-right"></i>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ══════════ HERO ══════════ -->
+<section id="home" class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <div class="hero-wrap">
+    <div class="hero-text">   <!-- Esquerda -->
+
+      <h1 class="hero-title">
+        <span class="ht-line-hero">Olá, eu sou</span>
+        <span class="ht-line ht-accent">Rafael Sanguini</span>
+      </h1>
+
+      <p class="hero-desc">
+        <strong>Aspirante a Desenvolvedor Fullstack</strong> apaixonado por interfaces modernas.
+        Estudante de Engenharia de Software na PUC-Campinas.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projetos" class="btn-primary">
+          Ver Projetos <i data-lucide="arrow-right"></i>
+        </a>
+        <a href="#contato" class="btn-outline">Falar comigo</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hstat">
+          <strong style="margin-left:8px;"><small>+</small>2</strong><span>Anos de exp.</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hstat">
+          <strong style="margin-left: -10px;"><small>+</small>5</strong><span>Projetos</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hstat">
+          <strong style="margin-left: 10px;">3°</strong><span>Semestre</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Direita -->
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <div class="hf-ring hf-ring1"></div>
+        <div class="hf-ring hf-ring2"></div>
+        <div class="hf-photo">
+          <img src="imagens/fotominha2.jpeg" alt="Rafael Sanguini" onerror="this.parentElement.querySelector('.hf-fallback').style.display='flex';this.style.display='none'">
+        </div>
+        <div class="fbadge fb-top">
+          <i data-lucide="code-2"></i><span>Fullstack student</span>
+        </div>
+        <div class="fbadge fb-bottom">
+          <i data-lucide="graduation-cap"></i><span>Eng. Software</span>
+        </div>
+        <div class="fbadge fb-side">
+          <i data-lucide="lightbulb"></i><span>Criatividade</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ══════════ SOBRE ══════════ -->
+<section id="sobre" class="about">
+  <div class="section-wrap">
+
+    <div class="about-layout">
+      <!-- Esquerda -->
+      <div class="about-text-col">
+        <p class="eyebrow">Sobre mim</p>
+        <h2 class="section-title">Engenheiro que<br/><em>pensa em código.</em></h2>
+
+        <p class="about-p">
+          Sou estudante do 3º semestre de <strong>Engenharia de Software</strong> pela PUC-Campinas,
+          focado em evoluir cada dia mais — seja na lógica por trás dos sistemas, nas interfaces que as pessoas
+          usam, ou nas tecnologias que ainda tenho para explorar. 
+        </p>
+          
+        <p class="about-p">
+          Nascido em <strong>Alagoas</strong> e apaixonado por <strong>esportes</strong>, busco unir disciplina, criatividade e conhecimento técnico para transformar ideias em soluções reais.
+        </p>
+
+        <p class="about-p">
+          Busco <strong>oportunidade de estágio</strong> para aplicar meu conhecimento em projetos reais,
+          contribuir com uma equipe de qualidade e continuar crescendo com propósito.
+        </p>
+
+        <div class="about-info">
+          <div class="ai-item"><i data-lucide="map-pin"></i><span>Jundiaí, São Paulo</span></div>
+          <div class="ai-item"><i data-lucide="graduation-cap"></i><span>PUC-Campinas · 3º Sem.</span></div>
+          <div class="ai-item"><i data-lucide="languages"></i><span>PTG · ING · ESP · ITA</span></div>
+          <div class="ai-item"><i data-lucide="briefcase"></i><span>Aberto a estágio</span></div>
+          <div class="ai-item"><i data-lucide="trending-up"></i><span>Evolução contínua</span></div>
+          <div class="ai-item"><i data-lucide="lightbulb"></i><span>Pensamento criativo</span></div>
+        </div>
+
+        <div class="about-socials">
+          <a href="https://github.com/rsanguini" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+            <img src="imagens/github.png" alt="GitHub">
+          </a>
+          <a href="https://linkedin.com/in/rafaelsanguini" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+            <img src="imagens/linkedinlogo.png" alt="LinkedIn">
+          </a>
+          <a href="mailto:rafaelcolagrossi@gmail.com" class="social-btn" aria-label="Email">
+            <img src="imagens/maillogo.png" style="width: 35px; height: 35px;" alt="Email">
+          </a>
+          <a href="https://wa.me/5511982360707?text=Olá%20Rafael!%20Acabei%20de%20analisar%20seu%20portfólio%20e%20me%20interessei%20pelo%20seu%20trabalho.%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20projeto."
+             target="_blank"
+             rel="noopener"
+             class="social-btn"
+             aria-label="WhatsApp">
+            <img src="imagens/whatsapp-logo-png.png" alt="WhatsApp">
+          </a>
+        </div>
+      </div>
+
+      <!-- Direita -->
+      <div class="about-photo-col">
+        <div class="about-photo-ring" id="openProfileModal" role="button" tabindex="0" aria-label="Ver perfil completo">
+          <div class="apr-spin"></div>
+          <div class="apr-inner">
+            <img src="imagens/fotominha1.jpg" alt="Rafael Sanguini" onerror="this.style.display='none'">
+          </div>
+          <div class="apr-overlay">
+            <i data-lucide="user-round"></i>
+            <span>Ver perfil</span>
+          </div>
+        </div>
+
+        <div class="soft-grid">
+          <div class="soft-pill"><i data-lucide="users"></i><span>Equipe</span></div>
+          <div class="soft-pill"><i data-lucide="zap"></i><span>Aprendizado</span></div>
+          <div class="soft-pill"><i data-lucide="puzzle"></i><span>Problemas</span></div>
+          <div class="soft-pill"><i data-lucide="repeat"></i><span>Ágil</span></div>
+          <div class="soft-pill"><i data-lucide="lightbulb"></i><span>Criatividade</span></div>
+          <div class="soft-pill"><i data-lucide="message-square"></i><span>Comunicação</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════ PROJETOS ══════════ -->
+<section id="projetos" class="projects">
+  <div class="section-wrap">
+
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Portfólio</p>
+        <h2 class="section-title">Projetos<br/><em>em destaque.</em></h2>
+      </div>
+      <a href="https://github.com/rsanguini?tab=repositories" target="_blank" rel="noopener" class="link-arrow">Ver todos no GitHub <i data-lucide="arrow-up-right"></i>
+      </a>
+    </div>
+
+    <div class="proj-grid" id="projGrid">
+
+      <article class="proj-card">
+        <div class="proj-img pimg-starz">
+          <div class="proj-mockup">
+            <div class="mock-bar"><span class="md rd"></span><span class="md yd"></span><span class="md gd"></span><span class="mock-url">starzup.app</span></div>
+            <img src="imagens/StarzUp! - Projeto.jpeg" alt="Starz Up">
+          </div>
+          <span class="proj-badge">Destaque</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-num">01</span>
+            <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Firebase</span></div>
+          </div>
+          <h3>Starz Up!</h3>
+          <p>Plataforma semiprofissional de E-sports com organização de campeonatos de jogos digitais com layout responsivo e estrutura lógica.</p>
+          <a href="https://github.com/RaphaelSalesDEV/Starz-Up" target="_blank" rel="noopener" class="proj-link">
+            <i data-lucide="github"></i> Ver no GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img pimg-investx">
+          <div class="proj-mockup">
+            <div class="mock-bar"><span class="md rd"></span><span class="md yd"></span><span class="md gd"></span><span class="mock-url">invest-x-black.vercel.app</span></div>
+            <img src="imagens/InvestX - Projeto.jpeg" alt="InvestX">
+          </div>
+          <span class="proj-badge">Destaque</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-num">02</span>
+            <div class="proj-tags"><span>JS</span><span>AI</span><span>Vercel</span><span>APIs</span></div>
+          </div>
+          <h3>InvestX</h3>
+          <p>Suporte a decisões financeiras com IA integrada e interface focada em usabilidade e performance.</p>
+          <a href="https://github.com/rsanguini/InvestX" target="_blank" rel="noopener" class="proj-link">
+            <i data-lucide="github"></i> Ver no GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="proj-card proj-hidden" aria-hidden="true">
+        <div class="proj-img pimg-auth">
+          <div class="proj-mockup">
+            <div class="mock-bar"><span class="md rd"></span><span class="md yd"></span><span class="md gd"></span><span class="mock-url">auth-system.app</span></div>
+            <img src="imagens/Login_Cadastro - projeto.jpeg" alt="Login e Cadastro">
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-num">03</span>
+            <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <h3>Cadastro &amp; Login </h3>
+          <p>Sistema de autenticação, gerenciamento de sessões e interface moderna.</p>
+          <a href="https://github.com/rsanguini/auth-system" target="_blank" rel="noopener" class="proj-link">
+            <i data-lucide="github"></i> Ver no GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="proj-card proj-hidden" aria-hidden="true">
+        <div class="proj-img pimg-asm">
+          <div class="proj-mockup">
+            <div class="mock-bar"><span class="md rd"></span><span class="md yd"></span><span class="md gd"></span><span class="mock-url">low-level · assembly</span></div>
+            <img src="imagens/Jogo da Velha - Projeto.jpeg" alt="Jogo da Velha">
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-num">04</span>
+            <div class="proj-tags"><span>Assembly</span><span>Low-level</span></div>
+          </div>
+          <h3>Jogo da Velha · Assembly</h3>
+          <p>Jogo clássico implementado em Assembly — controle de fluxo e lógica computacional de baixo nível.</p>
+          <a href="https://github.com/rsanguini/jogo-da-velha-assembly" target="_blank" rel="noopener" class="proj-link">
+            <i data-lucide="github"></i> Ver no GitHub
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="proj-more-row">
+      <button class="btn-more" id="btnVerMais" aria-expanded="false">
+        <i data-lucide="layout-grid"></i>
+        <span id="btnMoreLabel">Ver mais projetos</span>
+        <i data-lucide="chevron-down" class="chevron-icon"></i>
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════ HABILIDADES ══════════ -->
+<section id="habilidades" class="skills">
+  <div class="section-wrap">
+
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Tecnologias</p>
+        <h2 class="section-title">Minhas<br/><em style="font-size: clamp(1.9rem, 3.5vw, 4.5rem);">Skills.</em></h2>
+      </div>
+    </div>
+
+    <div class="skills-layout">
+
+      <!-- Barras de skill -->
+      <div class="skills-bars">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><span class="sg-bar"></span>Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="code-2"></i></div><div class="sk-info"><span>JavaScript</span><div class="sk-track"><div class="sk-fill" style="--w:80%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="layout-dashboard"></i></div><div class="sk-info"><span>HTML5</span><div class="sk-track"><div class="sk-fill" style="--w:95%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="layout-dashboard"></i></div><div class="sk-info"><span>CSS3</span><div class="sk-track"><div class="sk-fill" style="--w:95%"></div></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><span class="sg-bar"></span>Backend &amp; Linguagens</h3>
+          <div class="skill-list">
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="terminal"></i></div><div class="sk-info"><span>Python</span><div class="sk-track"><div class="sk-fill" style="--w:55%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="cpu"></i></div><div class="sk-info"><span>C</span><div class="sk-track"><div class="sk-fill" style="--w:65%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="binary"></i></div><div class="sk-info"><span>Assembly</span><div class="sk-track"><div class="sk-fill" style="--w:75%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="plug"></i></div><div class="sk-info"><span>APIs REST</span><div class="sk-track"><div class="sk-fill" style="--w:80%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="terminal"></i></div><div class="sk-info"><span>Node.js</span><div class="sk-track"><div class="sk-fill" style="--w:45%"></div></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><span class="sg-bar"></span>Database</h3>
+          <div class="skill-list">
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="terminal"></i></div><div class="sk-info"><span>PostgreSQL</span><div class="sk-track"><div class="sk-fill" style="--w:30%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="cpu"></i></div><div class="sk-info"><span>SQL</span><div class="sk-track"><div class="sk-fill" style="--w:35%"></div></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><span class="sg-bar"></span>Ferramentas</h3>
+          <div class="skill-list">
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="git-branch"></i></div><div class="sk-info"><span>Git / GitHub</span><div class="sk-track"><div class="sk-fill" style="--w:85%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="database"></i></div><div class="sk-info"><span>Docker</span><div class="sk-track"><div class="sk-fill" style="--w:60%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="lightbulb"></i></div><div class="sk-info"><span>Figma</span><div class="sk-track"><div class="sk-fill" style="--w:90%"></div></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title"><span class="sg-bar"></span>Idiomas</h3>
+          <div class="skill-list">
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="languages"></i></div><div class="sk-info"><span>Português</span><div class="sk-track"><div class="sk-fill" style="--w:100%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="languages"></i></div><div class="sk-info"><span>Inglês</span><div class="sk-track"><div class="sk-fill" style="--w:95%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="languages"></i></div><div class="sk-info"><span>Espanhol</span><div class="sk-track"><div class="sk-fill" style="--w:65%"></div></div></div></div>
+            <div class="skill-row"><div class="sk-icon"><i data-lucide="languages"></i></div><div class="sk-info"><span>Italiano</span><div class="sk-track"><div class="sk-fill" style="--w:20%"></div></div></div></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card flip inclinado -->
+      <div class="card-col" style="margin-left: 40px;">
+        <div class="flip-wrap" id="flipWrap">
+          <div class="flip-inner">
+
+            <!-- Frente: editor de código -->
+            <div class="flip-front">
+              <div class="ce-glow"></div>
+              <div class="ce-bar">
+                <span class="ce-dot ced-r"></span>
+                <span class="ce-dot ced-y"></span>
+                <span class="ce-dot ced-g"></span>
+                <span class="ce-file">portfolio.js</span>
+              </div>
+              <pre class="ce-code"><span class="ck">const</span> <span class="cv">developer</span> <span class="co">=</span> <span class="cb">{</span>
+  <span class="cp">name</span><span class="co">:</span> <span class="cs">"Rafael Sanguini"</span><span class="cc">,</span>
+  <span class="cp">role</span><span class="co">:</span> <span class="cs">"Fullstack student"</span><span class="cc">,</span>
+  <span class="cp">location</span><span class="co">:</span> <span class="cs">"Jundiaí, SP 🇧🇷"</span><span class="cc">,</span>
+  <span class="cp">skills</span><span class="co">:</span> <span class="cb">[</span>
+    <span class="cs">"HTML"</span><span class="cc">,</span> <span class="cs">"CSS"</span><span class="cc">,</span> <span class="cs">"JS"</span><span class="cc">,</span>
+    <span class="cs">"SQL"</span><span class="cc">,</span> <span class="cs">"Python"</span><span class="cc">,</span>
+    <span class="cs">"Docker"</span><span class="cc">,</span> <span class="cs">"C"</span>
+  <span class="cb">]</span><span class="cc">,</span>
+  <span class="cp">available</span><span class="co">:</span> <span class="cbool">true</span>
+<span class="cb">}</span><span class="cc">;</span>
+
+<span class="ccomment">// learning &amp; building </span>
+<span class="cv">developer</span><span class="co">.</span><span class="cfn">init</span><span class="cc">();</span></pre>
+              <div class="flip-hint"><i data-lucide="rotate-cw"></i> Hover para revelar</div>
+            </div>
+
+            <!-- Verso: foto -->
+            <div class="flip-back">
+              <img src="imagens/fotominha7.jpeg" alt="Rafael Sanguini" class="flip-photo" onerror="this.style.display='none'">
+              <div class="flip-back-overlay">
+                <span class="fbo-name">Rafael Sanguini</span>
+                <span class="fbo-role">Software Engineer</span>
+                <span class="fbo-loc">📍 Jundiaí, SP</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════ CONTATO ══════════ -->
+<section id="contato" class="contact">
+  <div class="section-wrap">
+
+    <div class="contact-banner">
+      <div class="contact-eyebrow">
+        <i data-lucide="zap"></i> Disponível para novos projetos
+      </div>
+      <h2 class="contact-title">Vamos criar algo<br/><em> juntos?</em></h2>
+      <p class="contact-sub">
+        Seja para estágio, freelance ou só trocar uma ideia — estou sempre aberto.
+        Respondo em até 24h.
+      </p>
+      <div class="contact-actions">
+        <a href="mailto:rafaelcolagrossi@gmail.com" class="btn-primary">
+          Enviar Email <i data-lucide="arrow-right"></i>
+        </a>
+        <button class="btn-copy-email" id="copyEmailBtn" type="button">
+          <i data-lucide="copy"></i> Copiar email
+        </button>
+        <span class="copy-ok" id="copyToast" aria-live="polite">
+          <i data-lucide="check"></i> Copiado!
+        </span>
+      </div>
+    </div>
+
+    <div class="contact-channels">
+      <a href="mailto:rafaelcolagrossi@gmail.com" class="ch-card">
+        <div class="ch-icon"><i data-lucide="mail"></i></div>
+        <span class="ch-label">Email</span>
+        <span class="ch-val">rafaelcolagrossi@gmail.com</span>
+        <span class="ch-cta">Enviar mensagem <i data-lucide="arrow-up-right"></i></span>
+      </a>
+      <a href="https://wa.me/5511982360707?text=Olá%20Rafael!%20Acabei%20de%20analisar%20seu%20portfólio%20e%20me%20interessei%20pelo%20seu%20trabalho.%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20projeto." target="_blank" rel="noopener" class="ch-card">
+        <div class="ch-icon"><i data-lucide="message-circle"></i></div>
+        <span class="ch-label">WhatsApp</span>
+        <span class="ch-val">+55 (11) 98236-0707</span>
+        <span class="ch-cta">Abrir conversa <i data-lucide="arrow-up-right"></i></span>
+      </a>
+      <a href="tel:+5511982360707" class="ch-card">
+        <div class="ch-icon"><i data-lucide="phone"></i></div>
+        <span class="ch-label">Telefone</span>
+        <span class="ch-val">+55 (11) 98236-0707</span>
+        <span class="ch-cta">Ligar agora <i data-lucide="arrow-up-right"></i></span>
+      </a>
+    </div>
+
+    <div class="contact-socials">
+      <a href="https://github.com/rsanguini" target="_blank" rel="noopener" class="cs-link">
+      <img src="imagens/logo github - roxo.png" style="width: 25px;"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/rafaelsanguini" target="_blank" rel="noopener" class="cs-link">
+      <img src="imagens/logo linkedin - roxo.png" style="width: 25px;"> LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="footer-wrap">
+    <div class="footer-grid">
+
+      <div class="fg-brand">
+        <a href="#home" class="footer-logo"><span class="lr">R</span><span class="ls">S</span> <span class="fn-name">- Rafael Sanguini</span></a>
+        <p>Transformando ideias em experiências digitais memoráveis. Disponível para estágio.</p>
+      </div>
+
+      <div class="fg-nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="fg-contact">
+        <h4>Contato</h4>
+        <a href="mailto:rafaelcolagrossi@gmail.com"><i data-lucide="mail"></i> rafaelcolagrossi@gmail.com</a>
+        <a href="tel:+5511982360707"><i data-lucide="phone"></i> +55 (11) 98236-0707</a>
+        <span><i data-lucide="map-pin"></i> Jundiaí, São Paulo</span>
+        <span><i data-lucide="graduation-cap"></i> PUC-Campinas · 3º Sem.</span>
+      </div>
+
+    </div>
+
+    <div class="footer-bar">
+      <span>© 2026 Rafael Sanguini. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- ══════════ MODAL PERFIL ══════════ -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Perfil completo">
+  <div class="modal-box" id="modalBox">
+    <button class="modal-close" id="modalClose" aria-label="Fechar"><i data-lucide="x"></i></button>
+
+    <div class="modal-head">
+      <div class="modal-avatar">
+        <img src="imagens/fotominha1.jpg" alt="Rafael" onerror="this.style.display='none'">
+      </div>
+      <div class="modal-info">
+        <h2>Rafael Sanguini Colagrossi</h2>
+        <p>Aspiring Full Stack Developer · Eng. Software</p>
+        <div class="modal-tags">
+          <span class="mtag mtag-green"><span class="mtag-dot"></span>Disponível</span>
+          <span class="mtag">🇧🇷 Jundiaí, SP</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <span class="modal-label">Stack</span>
+      <div class="modal-chips">
+        <span class="mc mc-y">JS</span><span class="mc mc-b">NODE.js</span>
+        <span class="mc mc-o">HTML5</span><span class="mc mc-t">CSS3</span>
+        <span class="mc mc-c">SQL</span><span class="mc mc-g">Python</span>
+        <span class="mc mc-gr">C</span><span class="mc mc-r">Assembly</span>
+        <span class="mc mc-f">Docker</span><span class="mc mc-w">Git</span>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <span class="modal-label">Bio</span>
+      <p class="modal-bio">Focado em evoluir cada dia mais, construindo interfaces modernas e sistemas robustos. Atuo no frontend e backend, buscando sempre soluções elegantes para problemas reais.</p>
+    </div>
+
+    <div class="modal-stats" style="margin-top: -14px;">
+      <div class="ms"><strong>2+</strong><span>Anos dev</span></div>
+      <div class="ms-div"></div>
+      <div class="ms"><strong>+5</strong><span>Projetos</span></div>
+      <div class="ms-div"></div>
+      <div class="ms"><strong>4</strong><span>Idiomas</span></div>
+      <div class="ms-div"></div>
+      <div class="ms"><strong>3°</strong><span>Semestre</span></div>
+    </div>
+
+    <div class="modal-links">
+      <a href="mailto:rafaelcolagrossi@gmail.com" class="ml">
+        <img src="imagens/logo email - roxo.png" alt="Email"><span>rafaelcolagrossi@gmail.com</span>
+      </a>
+      <a href="https://github.com/rsanguini" target="_blank" rel="noopener" class="ml">
+        <img src="imagens/logo github - roxo.png" alt="GitHub"><span>rsanguini</span>
+      </a>
+      <a href="https://linkedin.com/in/rafaelsanguini" target="_blank" rel="noopener" class="ml">
+        <img src="imagens/logo linkedin - roxo.png" alt="LinkedIn"><span>Rafael Sanguini</span>
+      </a>
+      <a href="tel:+5511982360707" class="ml">
+        <img src="imagens/icone telefone - roxo.png" alt="Tel"><span>+55 (11) 98236-0707</span>
+      </a>
+    </div>
+
+    <div class="modal-actions">
+      <a href="#contato" class="btn-primary" id="modalContactBtn">
+        Entrar em Contato <i data-lucide="arrow-right"></i>
+      </a>
+      <a href="https://github.com/rsanguini" target="_blank" rel="noopener" class="btn-outline">
+        <i data-lucide="github"></i> GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
